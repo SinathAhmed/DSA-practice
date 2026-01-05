@@ -1,5 +1,8 @@
-from array import *
+from numpy import *
 
+from array import *
+"""
+# This code demonstrates the usage of Python's array module to create and manipulate arrays of integers.
 # Create an array of integers
 arr = array('i', [10, 20, 30, 40, 50])
 
@@ -46,4 +49,5 @@ for i in range(0, n):
     val.append(int(input("Enter values: ")))
 
 for i in val:
-    print(i, end=" ")
+    print(i, end=" ")"""
+
