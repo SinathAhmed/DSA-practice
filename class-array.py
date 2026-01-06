@@ -1,7 +1,8 @@
 from numpy import *
 
-from array import *
 """
+from array import *
+
 # This code demonstrates the usage of Python's array module to create and manipulate arrays of integers.
 # Create an array of integers
 arr = array('i', [10, 20, 30, 40, 50])
@@ -43,11 +44,34 @@ sliced_array2 = newarray[3:-3] # from index 3 to third last element. -3 mane las
 sliced_array3 = newarray[::-1]   # array reverse kore dey 
 
 print('\n')
-val = array('i', [])
+empt = array('i', [])
 n = int(input("Enter number of elements: "))
 for i in range(0, n):
-    val.append(int(input("Enter values: ")))
+    empt.append(int(input("Enter values: ")))
 
-for i in val:
+for i in empt:
     print(i, end=" ")"""
 
+# val = array([1, 2, 3, 4.7, 'a'])
+
+# for i in val:
+#     print(i, end=" ")
+
+# val = arange(1, 10, 2)  # 1 theke 10 er moddhe 2 step size e print kore
+# val = zeros(5)  # 5 ta zero print kore
+# val = ones(5)   # 5 ta one print kore
+# val = linspace(10, 20, 5)  # 10 theke 20 er moddhe 5 ta equally spaced number print kore
+# for i in val:
+#     print(i, end=" ")
+
+zero = array(10)  # zero dimensional array
+print(zero)
+
+one = array([1, 2, 3, 4, 5])  # one dimensional array
+print(one)
+
+two = array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])  # two dimensional array
+print(two)
+
+three = array([ [ [1,2], [3,4] ], [ [5,6], [7,8] ] ]) # three dimensional array
+print(three)
